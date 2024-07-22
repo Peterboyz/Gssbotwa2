@@ -68,9 +68,9 @@ let nttoxic = JSON.parse(fs.readFileSync('./database/antitoxic.json'))
 let premium = JSON.parse(fs.readFileSync('./src/data/premium.json'))
 
 // Initialize default values
-let autoread = false;
-let available = false;
-let autoTyping = false;
+let autoread = true;
+let available = true;
+let autoTyping = true;
 let autoRecord = false;
 
 const mongoDBUrl = process.env.MONGO_DB || 'mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority';
@@ -113,7 +113,7 @@ const isAsu = body.startsWith(global.prefa[0]) || body.startsWith(global.prefa[1
 const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLowerCase() : '';
 
 
-        const pushname = m.pushName || "No Name"
+        const pushname = m.pushName || "peterboyz17"
         const botNumber = await gss.decodeJid(gss.user.id)
         const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
         const itsMe = m.sender == botNumber ? true : false
