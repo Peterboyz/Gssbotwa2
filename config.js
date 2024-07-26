@@ -8,10 +8,10 @@ global.linkGroup = 'https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp'
 
 global.apikey = 'bf2d2cf29b3edc604b447983';
 global.ownername = "peterboyz17";
-global.owner = ['254769733179'];
-global.premium = ['917050906659'];
+global.owner = ['254769733170'];
+global.premium = ['254769733170'];
 global.packname = "𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢";
-global.author = "𝐆𝐒𝐒 𝚩𝚯𝚻𝐖𝚫";
+global.author = "Peterboyz17";
 global.sessionName = 'session';
 global.prefa = [".", "!", "/", "?"];
 global.typemenu = "v1"
